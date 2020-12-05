@@ -9,8 +9,6 @@ def find2(list):
             if 2020-e-e2 in list:
                 return (2020-e-e2)*e*e2
 
-
-
 list = []
 for line in open(r'input.txt', 'r'):
     list.append(int(line[:-1]))
