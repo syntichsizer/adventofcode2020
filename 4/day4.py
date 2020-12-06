@@ -1,5 +1,7 @@
 import re
 
+# i should learn regex and rewrite this asap
+
 def validator(items):
     if 'byr' not in items:
         return False
