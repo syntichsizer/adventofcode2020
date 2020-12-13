@@ -24,8 +24,8 @@ def part1(instructions):
     return abs(dis[0] - dis[180]) + abs(dis[90]-dis[270])
 
 def part2(instructions):
-    way = {'n':1, 'e':10, 's':0, 'w':0}
 
+    way = {'n':1, 'e':10, 's':0, 'w':0}
     n_dist=0
     e_dist=0
 
